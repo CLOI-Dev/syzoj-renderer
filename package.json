@@ -13,7 +13,7 @@
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "escape-html": "^1.0.3",
-    "markdown-it": "^8.4.2",
+    "markdown-it": "^12.0.0",
     "markdown-it-math-loose": "^4.1.1",
     "markdown-it-merge-cells": "^1.0.0",
     "mathjax-node-page": "Menci/mathjax-node-page.git#1a9093ddd4925ab42e96fb9fdd566db37e5f3597",
