@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: markdown-it
+    versions:
+    - 12.0.4
+    - 12.0.5
+  - dependency-name: redis
+    versions:
+    - 3.0.2
+    - 3.1.0
+    - 3.1.1
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
